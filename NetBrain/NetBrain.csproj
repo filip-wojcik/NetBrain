@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC9D0987-131B-4AAB-BBCC-D8D955B17BC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetBrain</RootNamespace>
+    <AssemblyName>NetBrain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstracts\Common\Models\IVariableDomain.cs" />
+    <Compile Include="Abstracts\ConstraintSatisfaction\Evaluators\ICSPEvaluator.cs" />
+    <Compile Include="Abstracts\ConstraintSatisfaction\Evaluators\IProblemUpdater.cs" />
+    <Compile Include="Abstracts\ConstraintSatisfaction\Evaluators\ISelectValueHeuristic.cs" />
+    <Compile Include="Abstracts\ConstraintSatisfaction\Evaluators\ISelectVariableHeuristic.cs" />
+    <Compile Include="Abstracts\ConstraintSatisfaction\Models\IConstraint.cs" />
+    <Compile Include="Abstracts\ConstraintSatisfaction\Models\IConstraintSatisfactionProblem.cs" />
+    <Compile Include="Abstracts\Graphs\Exceptions\NodeNotFoundException.cs" />
+    <Compile Include="Abstracts\Graphs\Exceptions\ValidNumberOfChildrenExceededException.cs" />
+    <Compile Include="Abstracts\Graphs\Models\IBinaryTree.cs" />
+    <Compile Include="Abstracts\Graphs\Models\IChildContainer.cs" />
+    <Compile Include="Abstracts\Graphs\Models\IEdge.cs" />
+    <Compile Include="Abstracts\Graphs\Models\IGraph.cs" />
+    <Compile Include="Abstracts\Graphs\Models\INode.cs" />
+    <Compile Include="Abstracts\Graphs\Models\ITree.cs" />
+    <Compile Include="Abstracts\Graphs\Traversals\IBinaryTreeTraversal.cs" />
+    <Compile Include="Abstracts\Graphs\Traversals\IGraphTraversal.cs" />
+    <Compile Include="Abstracts\Graphs\Traversals\ITreeTraversal.cs" />
+    <Compile Include="Abstracts\Logic\Evaluators\ISentenceEvaluator.cs" />
+    <Compile Include="Abstracts\Logic\Evaluators\IVariablesDispatcher.cs" />
+    <Compile Include="Abstracts\Logic\Exceptions\InvalidInputsCountException.cs" />
+    <Compile Include="Abstracts\Logic\Exceptions\InvalidMappingIndexException.cs" />
+    <Compile Include="Abstracts\Logic\Exceptions\NoValidDataVectorPredicateExeption.cs" />
+    <Compile Include="Abstracts\Logic\Exceptions\SentenceNotKnownException.cs" />
+    <Compile Include="Abstracts\Logic\Exceptions\UnassignedVariablePassedToEvaluationException.cs" />
+    <Compile Include="Abstracts\Logic\Exceptions\UnknownSentenceTypeException.cs" />
+    <Compile Include="Abstracts\Logic\Models\IComplexSentence.cs" />
+    <Compile Include="Abstracts\Logic\Models\IKnowledgeBase.cs" />
+    <Compile Include="Abstracts\Logic\Models\IOperator.cs" />
+    <Compile Include="Abstracts\Logic\Models\IPredicate.cs" />
+    <Compile Include="Abstracts\Logic\Models\ISentence.cs" />
+    <Compile Include="Abstracts\Common\Models\IVariable.cs" />
+    <Compile Include="Abstracts\Common\Models\ISubstitutionsSet.cs" />
+    <Compile Include="Abstracts\Common\Models\IVariableSubstitution.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IBestSplitSelector.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IDataSplitter.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IDecisionTreeBuilder.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IDecisionTreeClassifier.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IEntopyMeasurer.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Models\IProbabilityBasedChildContainer.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Models\ISplittingResult.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Utils\DecisionTreesUtils.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\Knn\IKnnClassifier.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Clusterization\KMeans\ICentroid.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Clusterization\KMeans\IClusterizator.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Clusterization\KMeans\ICentroidUpdater.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Clusterization\KMeans\IIncrementalCentroidUpdater.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Clusterization\KMeans\IInitialClustersBuilder.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\ExpertSystem\Evaluators\IRulesEvaluator.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\ExpertSystem\Exceptions\CannotFindFullyCoveredDefinitionException.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\ExpertSystem\Models\IRule.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\ExpertSystem\Models\IVariableDefinition.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\FrequentItems\Models\IAssociationRule.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\FrequentItems\Models\IAssociationsFinder.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\FrequentItems\Models\IFrequentItemsFinder.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\FrequentItems\Models\IFrequentItemsSet.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\NeuralNetworks\Models\IActivationFunction.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\NeuralNetworks\Models\INetworkLayer.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\NeuralNetworks\Models\INeuralNetwork.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\NeuralNetworks\Trainers\INeuralNetworkTrainer.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\NeuralNetworks\Trainers\ISolutionInterpreter.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\NeuralNetworks\Trainers\ITrainingStrategy.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\OptimizationAlgorithms\IOptimizationAlgorithm.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\OptimizationAlgorithms\IOptimizationAlgorithmLogger.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\OptimizationAlgorithms\IOptimizationAlgorithmLoggerParams.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Regression\IRegressor.cs" />
+    <Compile Include="Abstracts\MachineLearning\Exceptions\EmptyFeatureVectorsSetException.cs" />
+    <Compile Include="Abstracts\MachineLearning\Exceptions\ImplicitVariablesNotAllowedException.cs" />
+    <Compile Include="Abstracts\MachineLearning\Exceptions\UnknownFeatureLabelInPredicateException.cs" />
+    <Compile Include="Abstracts\MachineLearning\Exceptions\VectorsSizeNotEqualException.cs" />
+    <Compile Include="Abstracts\MachineLearning\MathematicalFunctions\ChaosMeasureFunctions.cs" />
+    <Compile Include="Abstracts\MachineLearning\MathematicalFunctions\DistanceFunctions.cs" />
+    <Compile Include="Abstracts\MachineLearning\MathematicalFunctions\NeuralNetowrksFunctions.cs" />
+    <Compile Include="Abstracts\MachineLearning\MathematicalFunctions\Randomization.cs" />
+    <Compile Include="Abstracts\MachineLearning\MathematicalFunctions\Regression\IRegressionFunction.cs" />
+    <Compile Include="Abstracts\MachineLearning\MathematicalFunctions\StatisticalFunctions.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\DataExtensions.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\IFeatureDomain.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\IFeatureVector.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\IDataSet.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\IProblemDomain.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\ISingleValueFeatureVector.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\ISingleValueDataSet.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\ILabeledFeature.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Models\IDecisionTree.cs" />
+    <Compile Include="Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\ISplitOption.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\QueryExtensions\IDataVectorPredicate.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\Standarization\IEncoder.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\Standarization\INumericalStandardizer.cs" />
+    <Compile Include="Abstracts\MachineLearning\Models\Data\Standarization\IStandarizator.cs" />
+    <Compile Include="Abstracts\MachineLearning\QualityCheckers\IClassificationQualityChecker.cs" />
+    <Compile Include="Abstracts\MachineLearning\QualityCheckers\IClassificationQualityData.cs" />
+    <Compile Include="Abstracts\MachineLearning\QualityCheckers\IContingencyTable.cs" />
+    <Compile Include="Abstracts\MachineLearning\QualityCheckers\IExpectedActualPair.cs" />
+    <Compile Include="Abstracts\MachineLearning\QualityCheckers\IQualityCheckLogger.cs" />
+    <Compile Include="Abstracts\MachineLearning\QualityCheckers\IQualityChecker.cs" />
+    <Compile Include="Abstracts\MachineLearning\QualityCheckers\IQualityData.cs" />
+    <Compile Include="Defaults\Common\Models\VariableWithDomain.cs" />
+    <Compile Include="Defaults\ConstraintSatisfaction\Evaluators\CSPEvaluator.cs" />
+    <Compile Include="Defaults\ConstraintSatisfaction\Evaluators\FailFastVariableHeuristic.cs" />
+    <Compile Include="Defaults\ConstraintSatisfaction\Evaluators\ForewardChecking.cs" />
+    <Compile Include="Defaults\ConstraintSatisfaction\Evaluators\MostConstrainedVariableHeuristic.cs" />
+    <Compile Include="Defaults\ConstraintSatisfaction\Evaluators\TakeAllValues.cs" />
+    <Compile Include="Defaults\Graphs\AdjacencyTableBased\Graph.cs" />
+    <Compile Include="Defaults\Graphs\AdjacencyTableBased\Node.cs" />
+    <Compile Include="Defaults\Graphs\Common\Edge.cs" />
+    <Compile Include="Defaults\Graphs\Extensions\GraphExtensions.cs" />
+    <Compile Include="Defaults\Graphs\Traversals\UniformCostSearchTraversal.cs" />
+    <Compile Include="Defaults\Graphs\Traversals\BreadthFirstTraversal.cs" />
+    <Compile Include="Defaults\Graphs\Traversals\Helpers\NodeWithAncestor.cs" />
+    <Compile Include="Defaults\Graphs\Traversals\TraversalBase.cs" />
+    <Compile Include="Defaults\Graphs\Trees\Base\BaseChildContainer.cs" />
+    <Compile Include="Defaults\Graphs\Trees\Base\BaseTree.cs" />
+    <Compile Include="Defaults\Graphs\Trees\BinarySearchTrees\BinarySearchTree.cs" />
+    <Compile Include="Defaults\Graphs\Trees\Traversals\InOrderBSTTraversal.cs" />
+    <Compile Include="Abstracts\Logic\Evaluators\ISubstitutionsFinder.cs" />
+    <Compile Include="Defaults\Logic\Evaluators\SentenceEvaluator.cs" />
+    <Compile Include="Defaults\Logic\Evaluators\SubstitutionsFinder.cs" />
+    <Compile Include="Defaults\Logic\Evaluators\VariableDispatcher.cs" />
+    <Compile Include="Defaults\Logic\Models\And.cs" />
+    <Compile Include="Defaults\Logic\Models\BaseOperator.cs" />
+    <Compile Include="Defaults\Logic\Models\ComplexSentence.cs" />
+    <Compile Include="Defaults\Logic\Models\KnowledgeBase.cs" />
+    <Compile Include="Defaults\Logic\Models\Not.cs" />
+    <Compile Include="Defaults\Logic\Models\Or.cs" />
+    <Compile Include="Defaults\Logic\Models\Pass.cs" />
+    <Compile Include="Defaults\Logic\Models\Predicate.cs" />
+    <Compile Include="Defaults\Common\Models\Variable.cs" />
+    <Compile Include="Defaults\Common\Models\VariableSubstitution.cs" />
+    <Compile Include="Defaults\Common\Models\SubstitutionsSet.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\BaseDataSplitter.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\BestSplitSelector.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\BinaryDataSplitter.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\DecisionTreeClassifier.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\MultiValueDataSplitter.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\DecisionTreeBuilder.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\EntropyMeasurer.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\SplitOption.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Models\DecisionTree.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Models\ProbabilityBasedChildContainer.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Models\SplittingResult.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Classification\Knn\WeightedKnnClassifier.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Clusterization\BaseInitialClusterBuilder.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Clusterization\Centroid.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Clusterization\IncrementalCentroidUpdater.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Clusterization\KMeansClusterizator.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Clusterization\ForgyClusterBuilder.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Clusterization\KMeansIncrementalClusterizator.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Clusterization\RandomClusterBuilder.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Clusterization\StandardCentroidUpdater.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\ExpertSystem\Evaluators\RulesEvaluator.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\ExpertSystem\Models\CausalRule.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\ExpertSystem\Models\VariableDefinition.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\FrequentItems\AprioriAlgorithm.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\FrequentItems\AssociationRule.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\FrequentItems\FrequentItemsSet.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Functions\BaseActivationFunction.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Functions\BipolarActivation.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Functions\HyperbolicTangentActivation.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Functions\SoftmaxActivation.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Models\BaseNetworkLayer.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Models\NeuralNetwork.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Models\StandardNetworkLayer.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Models\InputNetworkLayer.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Trainers\HoldOutTrainingStrategy.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Trainers\OptimizationBasedTrainer.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\NeuralNetworks\Trainers\SoftmaxSolutionInterpreter.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\OptimizationAlgorithms\OptimizationAlgorithmBase.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\OptimizationAlgorithms\OptimizationAlgorithmLoggerParams.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\OptimizationAlgorithms\ParticleSwarm\Particle.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\OptimizationAlgorithms\ParticleSwarm\ParticleSwarmOptimization.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Regression\BaseGradient.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Regression\GradientDescent.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Regression\RegularizedGradientDescent.cs" />
+    <Compile Include="Defaults\MachineLearning\Algorithms\Regression\StochasticGradientDescent.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Models\FeatureDomain.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Models\FeatureVector.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Models\DataSet.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Models\ProblemDomain.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\QueryExtensions\ComparingPredicate.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\QueryExtensions\DataVectorPredicate.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\QueryExtensions\BaseDataVectorPredicate.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\QueryExtensions\EqualsPredicate.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\QueryExtensions\LeserThanOrEqualPredicate.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\QueryExtensions\LeserThanPredicate.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\QueryExtensions\GreaterThanPredicate.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\QueryExtensions\GreaterThanOrEqualPredicate.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\QueryExtensions\NumericObjectComparer.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\QueryExtensions\QueryableDataSetEvaluator.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Standarization\BaseEncoder.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Standarization\BinaryEncoder.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Standarization\ToDoubleEncoder.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Standarization\ScalingNormalizer.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Standarization\OneOfNEncoder.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Standarization\Standarizator.cs" />
+    <Compile Include="Defaults\MachineLearning\Exceptions\InvalidVectorException.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Models\SingleValueFeatureVector.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Models\SingleValueDataSet.cs" />
+    <Compile Include="Defaults\MachineLearning\Data\Models\LabeledFeature.cs" />
+    <Compile Include="Defaults\MachineLearning\MathematicalFunctions\Regression\PolynomialFunction.cs" />
+    <Compile Include="Defaults\MachineLearning\QualityCheckers\ClassificationDataQuality.cs" />
+    <Compile Include="Defaults\MachineLearning\QualityCheckers\ClassificationQualityChecker.cs" />
+    <Compile Include="Defaults\MachineLearning\QualityCheckers\ContingencyTable.cs" />
+    <Compile Include="Defaults\MachineLearning\QualityCheckers\ExpectedActualPair.cs" />
+    <Compile Include="Defaults\MachineLearning\QualityCheckers\NumericDataQuality.cs" />
+    <Compile Include="Defaults\MachineLearning\QualityCheckers\RootMeanSquareErrorChecker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\CollectionExtensions\CollectionsExtensions.cs" />
+    <Compile Include="Utils\CollectionExtensions\ListsComparer.cs" />
+    <Compile Include="Utils\ICloneableType.cs" />
+    <Compile Include="Utils\Tools.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

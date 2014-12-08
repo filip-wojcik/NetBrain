@@ -1,0 +1,1628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NetBrain.Abstracts.Graphs.Exceptions.NodeNotFoundException&lt;T&gt;" Collapsed="true">
+    <Position X="28" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\Graphs\Exceptions\NodeNotFoundException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.Graphs.Exceptions.ValidNumberOfChildrenExceededException" Collapsed="true">
+    <Position X="35" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\Graphs\Exceptions\ValidNumberOfChildrenExceededException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.Logic.Exceptions.InvalidInputsCountException" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Exceptions\InvalidInputsCountException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.Logic.Exceptions.InvalidMappingIndexException" Collapsed="true">
+    <Position X="28" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Exceptions\InvalidMappingIndexException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.Logic.Exceptions.NoValidDataVectorPredicateExeption" Collapsed="true">
+    <Position X="31.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Exceptions\NoValidDataVectorPredicateExeption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.Logic.Exceptions.SentenceNotKnownException&lt;V&gt;" Collapsed="true">
+    <Position X="24.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Exceptions\SentenceNotKnownException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.Logic.Exceptions.UnassignedVariablePassedToEvaluationException&lt;T&gt;" Collapsed="true">
+    <Position X="29.75" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Exceptions\UnassignedVariablePassedToEvaluationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.Logic.Exceptions.UnknownSentenceTypeException&lt;V&gt;" Collapsed="true">
+    <Position X="33.25" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Exceptions\UnknownSentenceTypeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.Algorithms.ExpertSystem.Exceptions.CannotFindFullyCoveredDefinitionException&lt;V&gt;" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\ExpertSystem\Exceptions\CannotFindFullyCoveredDefinitionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.Exceptions.EmptyFeatureVectorsSetException" Collapsed="true">
+    <Position X="21" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Exceptions\EmptyFeatureVectorsSetException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.Exceptions.ImplicitVariablesNotAllowedException" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Exceptions\ImplicitVariablesNotAllowedException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.Exceptions.UnknownFeatureLabelInPredicateException" Collapsed="true">
+    <Position X="31.5" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Exceptions\UnknownFeatureLabelInPredicateException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.Exceptions.VectorsSizeNotEqualException&lt;T&gt;" Collapsed="true">
+    <Position X="29.75" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Exceptions\VectorsSizeNotEqualException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.ChaosMeasureFunctions" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\ChaosMeasureFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.DistanceFunctions" Collapsed="true">
+    <Position X="33.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\DistanceFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.NeuralNetowrksFunctions" Collapsed="true">
+    <Position X="21" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAAAAAAAAAAAAIAEACAAAAAABAQAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\NeuralNetowrksFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.Randomization" Collapsed="true">
+    <Position X="29.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\Randomization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.RegressionFunctions" Collapsed="true">
+    <Position X="31.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\RegressionFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.StatisticalFunctions" Collapsed="true">
+    <Position X="35" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhAAAAAACAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\StatisticalFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Abstracts.MachineLearning.Models.Data.DataExtensions" Collapsed="true">
+    <Position X="28" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\DataExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.Common.Models.SubstitutionsSet&lt;V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\Common\Models\SubstitutionsSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Common.Models.Variable&lt;V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABgAIAAAAAAAAAAAgAAAAAQAAAAAAIAAACAgAAAAABA=</HashCode>
+      <FileName>Defaults\Common\Models\Variable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Common.Models.VariableSubstitution&lt;V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAABAAgAAAAAAAAAAAAIAAAAQAAAAAAAA=</HashCode>
+      <FileName>Defaults\Common\Models\VariableSubstitution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Common.Models.VariableDomain&lt;TValueType&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAIAABg=</HashCode>
+      <FileName>Defaults\Common\Models\VariableWithDomain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.ConstraintSatisfaction.Evaluators.CSPEvaluator&lt;TValueType&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAABAAAAAAAAQAAAAAAIAAACAAAAAAAAAQCAEAA=</HashCode>
+      <FileName>Defaults\ConstraintSatisfaction\Evaluators\CSPEvaluator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.ConstraintSatisfaction.Evaluators.FailFastVariableHeuristic&lt;TValueType&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\ConstraintSatisfaction\Evaluators\FailFastVariableHeuristic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.ConstraintSatisfaction.Evaluators.ForewardChecking&lt;TValueType&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\ConstraintSatisfaction\Evaluators\ForewardChecking.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.ConstraintSatisfaction.Evaluators.MostConstrainedVariableHeuristic&lt;TValueType&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\ConstraintSatisfaction\Evaluators\MostConstrainedVariableHeuristic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.ConstraintSatisfaction.Evaluators.TakeAllValues&lt;TValueType&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Defaults\ConstraintSatisfaction\Evaluators\TakeAllValues.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.AdjacencyTableBased.Graph&lt;T, V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAEABAAAIACACAAAAQAAAAAAAAAAAEBAAAAABQQ=</HashCode>
+      <FileName>Defaults\Graphs\AdjacencyTableBased\Graph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.AdjacencyTableBased.Node&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>Defaults\Graphs\AdjacencyTableBased\Node.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.Common.Edge&lt;T, V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAQAAAAgAAAAAAAAAAAAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>Defaults\Graphs\Common\Edge.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.Extensions.GraphExtensions" Collapsed="true">
+    <Position X="35" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\Graphs\Extensions\GraphExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.Traversals.BreadthFirstTraversal&lt;T, V&gt;" Collapsed="true">
+    <Position X="5.5" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\Graphs\Traversals\BreadthFirstTraversal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.Traversals.TraversalBase&lt;T, V&gt;" Collapsed="true">
+    <Position X="5.5" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAEAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\Graphs\Traversals\TraversalBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.Traversals.UniformCostSearchTraversal&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="18.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\Graphs\Traversals\UniformCostSearchTraversal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.Traversals.Helpers.NodeWithAncestor&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAQAgAICAAAAAAAAAIAAAAAAAEAAAAA=</HashCode>
+      <FileName>Defaults\Graphs\Traversals\Helpers\NodeWithAncestor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.Trees.Base.BaseChildContainer&lt;T, V&gt;" Collapsed="true">
+    <Position X="11.5" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAQAAAAAAAAAIAAAAAAAIAAAAA=</HashCode>
+      <FileName>Defaults\Graphs\Trees\Base\BaseChildContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.Trees.Base.BaseTree&lt;T, V&gt;" Collapsed="true">
+    <Position X="1.75" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAEABAggMRAACEAEEQAAAAAAAAAEAABgAACQAAA=</HashCode>
+      <FileName>Defaults\Graphs\Trees\Base\BaseTree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.Trees.BinarySearchTrees.BinarySearchTree&lt;T, V&gt;" Collapsed="true">
+    <Position X="2.75" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAABAgAGRABQEAEQJAAUBAAAAAAAAAQgAIAIAA=</HashCode>
+      <FileName>Defaults\Graphs\Trees\BinarySearchTrees\BinarySearchTree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Graphs.Trees.Traversals.InOrderBSTTraversal&lt;T, V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\Graphs\Trees\Traversals\InOrderBSTTraversal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Evaluators.SentenceEvaluator&lt;V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAEAgAACAAQAAAAAGAgAAAIAAAAAAAIAAA=</HashCode>
+      <FileName>Defaults\Logic\Evaluators\SentenceEvaluator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Evaluators.SubstitutionsFinder&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Defaults\Logic\Evaluators\SubstitutionsFinder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Evaluators.VariableDispatcher&lt;V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\Logic\Evaluators\VariableDispatcher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Models.And&lt;V&gt;" Collapsed="true">
+    <Position X="0.75" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAEA=</HashCode>
+      <FileName>Defaults\Logic\Models\And.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Models.BaseOperator&lt;V&gt;" Collapsed="true">
+    <Position X="4" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAEAAgAAAAgQAAAAAAIAAAAAEAAgAAAA=</HashCode>
+      <FileName>Defaults\Logic\Models\BaseOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Models.ComplexSentence&lt;V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAABAAAAAAAAAEAAgAAACAQAAARAAIAAAgAEAAAAIAA=</HashCode>
+      <FileName>Defaults\Logic\Models\ComplexSentence.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Models.KnowledgeBase&lt;V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAABAAAAAIAACAAAAAAAACAAAAAAAAAAACAAAAAIA=</HashCode>
+      <FileName>Defaults\Logic\Models\KnowledgeBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Models.Not&lt;V&gt;" Collapsed="true">
+    <Position X="3" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEAAAAAAAAAAAAAAAAAAAAAEAAgAAEA=</HashCode>
+      <FileName>Defaults\Logic\Models\Not.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Models.Or&lt;V&gt;" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAEA=</HashCode>
+      <FileName>Defaults\Logic\Models\Or.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Models.Pass&lt;V&gt;" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEAAAAAAAAAAAAAAAAAAAAAEAAgAAEA=</HashCode>
+      <FileName>Defaults\Logic\Models\Pass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.Logic.Models.Predicate&lt;V&gt;" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAAQAAAAAAIAAAAAEAAAAAAA=</HashCode>
+      <FileName>Defaults\Logic\Models\Predicate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.BaseDataSplitter&lt;T, V&gt;" Collapsed="true">
+    <Position X="11.75" Y="13.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAQEAAAAAAAAEAACwAAgAAAQAAAAACIyAAAAAAABAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\BaseDataSplitter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.BestSplitSelector&lt;T, V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAgAEAAACACAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\BestSplitSelector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.BinaryDataSplitter&lt;T&gt;" Collapsed="true">
+    <Position X="12.75" Y="14.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAACAAAAAgAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\BinaryDataSplitter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.DecisionTreeBuilder&lt;T, V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAIAAAAACAAAAAEAAAAACAAAggAAAAAQAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\DecisionTreeBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.DecisionTreeClassifier&lt;T, V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAACAAAACAAAkAAAAAAgAAgAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\DecisionTreeClassifier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.EntropyMeasurer&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQEAAIAAAAAAgAAAAAAAAAAAAAQAAAAAAAEAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\EntropyMeasurer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.MultiValueDataSplitter&lt;T&gt;" Collapsed="true">
+    <Position X="10.5" Y="14.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAACAAABAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\MultiValueDataSplitter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.SplitOption&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAABCAAEAAAgAAAAAAAAIAAAIAAAAACABAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\SplitOption.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Models.DecisionTree&lt;T, V&gt;" Collapsed="true">
+    <Position X="0.5" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEQgAAAAAAARIAIFIAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Models\DecisionTree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Models.ProbabilityBasedChildContainer&lt;T, V&gt;" Collapsed="true">
+    <Position X="11.5" Y="17.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAIAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Models\ProbabilityBasedChildContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.DecisionTrees.Models.SplittingResult&lt;T, V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\DecisionTrees\Models\SplittingResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Classification.Knn.WeightedKnnClassifier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAEAAECAAAAAAAAAAEAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Classification\Knn\WeightedKnnClassifier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Clusterization.BaseInitialClusterBuilder" Collapsed="true">
+    <Position X="6.75" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAIQAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Clusterization\BaseInitialClusterBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Clusterization.Centroid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAggAAAAAAACAAAAAAAAAAAgACAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Clusterization\Centroid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Clusterization.ForgyClusterBuilder" Collapsed="true">
+    <Position X="5.5" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Clusterization\ForgyClusterBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Clusterization.IncrementalCentroidUpdater" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Clusterization\IncrementalCentroidUpdater.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Clusterization.KMeansClusterizator" Collapsed="true">
+    <Position X="8.5" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIgAAAEAQIAAAAAAAAAAAoEAAAAAAIAM=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Clusterization\KMeansClusterizator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Clusterization.KMeansIncrementalClusterizator" Collapsed="true">
+    <Position X="8.5" Y="17.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAKQAAAQAAgAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Clusterization\KMeansIncrementalClusterizator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Clusterization.RandomClusterBuilder" Collapsed="true">
+    <Position X="7.75" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Clusterization\RandomClusterBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.Clusterization.StandardCentroidUpdater" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\Clusterization\StandardCentroidUpdater.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.ExpertSystem.Evaluators.RulesEvaluator&lt;V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAIAAAABAAAEAAAgAUAAAIECAAEAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\ExpertSystem\Evaluators\RulesEvaluator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.ExpertSystem.Models.CausalRule&lt;V&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAgAAAAAQAAAAAAIAAAAEAAAAEAAQ=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\ExpertSystem\Models\CausalRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.ExpertSystem.Models.VariableDefinition&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAIAAIAAAAQAAAAABAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\ExpertSystem\Models\VariableDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.FrequentItems.AprioriAlgorithm&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAgAAAEAAAAAAAAUIAAAAAAAAAAAEAAAARAIAAAAGA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\FrequentItems\AprioriAlgorithm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.FrequentItems.AssociationRule&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAgAAAAAAAAIAAAIAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\FrequentItems\AssociationRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.FrequentItems.FrequentItemsSet&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAACAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\FrequentItems\FrequentItemsSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Functions.BaseActivationFunction" Collapsed="true">
+    <Position X="1.75" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAIAAAAAKAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Functions\BaseActivationFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Functions.BipolarActivation" Collapsed="true">
+    <Position X="0.5" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Functions\BipolarActivation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Functions.HyperbolicTangentActivation" Collapsed="true">
+    <Position X="2.75" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Functions\HyperbolicTangentActivation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Functions.SoftmaxActivation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Functions\SoftmaxActivation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Models.BaseNetworkLayer" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BIAAgAAIAAAAAACAAAAAAAACAACAgAAAAAAAAAAQAEA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Models\BaseNetworkLayer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Models.InputNetworkLayer" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAQAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Models\InputNetworkLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Models.NeuralNetworkBuildingParams" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAARAAAAAAAAAAAACAAADUAAAAABAAAE=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Models\NeuralNetwork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Models.NeuralNetwork" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAACAAAAAAAABAAKAAAAAAAAAAAAAAGEAAAAABQAAE=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Models\NeuralNetwork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Models.StandardNetworkLayer" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAQAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Models\StandardNetworkLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Trainers.HoldOutTrainingStrategy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAEAAIAAAQEAAAAAAAAAAASAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Trainers\HoldOutTrainingStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Trainers.OptimizationBasedTrainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAggAQAJQAIAEAAAQAAAEgAhAAAAAAAAAgBAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Trainers\OptimizationBasedTrainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.NeuralNetworks.Trainers.SoftmaxSolutionInterpreter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\NeuralNetworks\Trainers\SoftmaxSolutionInterpreter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.OptimizationAlgorithms.OptimizationAlgorithmBase" Collapsed="true">
+    <Position X="15.5" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAAAAAAAAAAAAIAAAAAACIAABAQAAAAEA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\OptimizationAlgorithms\OptimizationAlgorithmBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.OptimizationAlgorithms.OptimizationAlgorithmLoggerParams" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAABABAAAAAABAAAACBBCAAAAAAAQA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\OptimizationAlgorithms\OptimizationAlgorithmLoggerParams.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.OptimizationAlgorithms.ParticleSwarm.Particle" Collapsed="true">
+    <Position X="22.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAIAAAgAAAAgAAAAAAIAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\OptimizationAlgorithms\ParticleSwarm\Particle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Algorithms.OptimizationAlgorithms.ParticleSwarm.ParticleSwarmOptimization" Collapsed="true">
+    <Position X="15.5" Y="16.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAABEAAAAASABAAAAEIAAAgAAAACAIIAAAAAkAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Algorithms\OptimizationAlgorithms\ParticleSwarm\ParticleSwarmOptimization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Models.DataSet&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CGoQEEAABCAAABAQCAAAjIQABAAACBAYCCQAAAhRIAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Models\DataSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Models.FeatureDomain" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAgAAAAAAAAAAAAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Models\FeatureDomain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Models.FeatureVector&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAAAEAJAAiAABAAAABAAAAIAAAAAAAAAAAQA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Models\FeatureVector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Models.ProblemDomain" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAACAAAAAAAAAABAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Models\ProblemDomain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Models.SingleValueDataSet&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAAAKAAABAAAAAAEIACBAAAAAAIACQgAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Models\SingleValueDataSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Models.SingleValueFeatureVector&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAIAAgAAAAAACBAAAAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Models\SingleValueFeatureVector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.QueryExtensions.BaseDataVectorPredicate&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\QueryExtensions\BaseDataVectorPredicate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.QueryExtensions.ComparingPredicate&lt;T&gt;" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\QueryExtensions\ComparingPredicate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.QueryExtensions.DataVectorPredicate&lt;T&gt;" Collapsed="true">
+    <Position X="1" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAQIAAAAAAACAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\QueryExtensions\DataVectorPredicate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.QueryExtensions.EqualsPredicate&lt;T&gt;" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\QueryExtensions\EqualsPredicate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.QueryExtensions.GreaterThanOrEqualPredicate&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\QueryExtensions\GreaterThanOrEqualPredicate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.QueryExtensions.GreaterThanPredicate&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\QueryExtensions\GreaterThanPredicate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.QueryExtensions.LesserThanOrEqualPredicate&lt;T&gt;" Collapsed="true">
+    <Position X="10" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\QueryExtensions\LeserThanOrEqualPredicate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.QueryExtensions.LesserThanPredicate&lt;T&gt;" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\QueryExtensions\LeserThanPredicate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.QueryExtensions.NumericObjectComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\QueryExtensions\NumericObjectComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.QueryExtensions.QueryableDataSetEvaluator&lt;T&gt;" Collapsed="true">
+    <Position X="28" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAhAAAAAAAAIAAAAoAAAAAAAAAgACAgA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\QueryExtensions\QueryableDataSetEvaluator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Standarization.BaseEncoder&lt;T&gt;" Collapsed="true">
+    <Position X="11.75" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAQAAAAAAACQAAAIBAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Standarization\BaseEncoder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Standarization.BinaryEncoder&lt;T&gt;" Collapsed="true">
+    <Position X="10.5" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Standarization\BinaryEncoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Standarization.OneOfNEncoder&lt;T&gt;" Collapsed="true">
+    <Position X="12.75" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Standarization\OneOfNEncoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Standarization.ScalingNormalizer&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAQAAAEAAABAAAAJAAAAAAEAAAQAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Standarization\ScalingNormalizer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Standarization.Standarizator&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAgwABAIAAAAQAAAABAAAEAAAAAAgBAQ=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Standarization\Standarizator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Data.Standarization.ToDoubleEncoder&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAQAAAAAEAAAgAAIAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Standarization\ToDoubleEncoder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.Exceptions.InvalidVectorException&lt;T&gt;" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Exceptions\InvalidVectorException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.MathematicalFunctions.Regression.PolynomialFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAgAAAAAAABAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\MathematicalFunctions\Regression\PolynomialFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.QualityCheckers.ClassificationDataQuality&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAIAAAAAAAAAAAgCAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\QualityCheckers\ClassificationDataQuality.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.QualityCheckers.ClassificationQualityChecker&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAEAAAAAAAgAIABAAAAACAAAAAACAAAAAIAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\QualityCheckers\ClassificationQualityChecker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.QualityCheckers.ContingencyTable&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\QualityCheckers\ContingencyTable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.QualityCheckers.ExpectedActualPair&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgACAAAACAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\QualityCheckers\ExpectedActualPair.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Defaults.MachineLearning.QualityCheckers.RootMeanSquareErrorChecker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\QualityCheckers\RootMeanSquareErrorChecker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Utils.CollectionExtensions.CollectionsExtensions" Collapsed="true">
+    <Position X="21" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAEAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\CollectionExtensions\CollectionsExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBrain.Utils.CollectionExtensions.ListsComparer&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\CollectionExtensions\ListsComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NetBrain.Utils.Tools" Collapsed="true">
+    <Position X="28" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAg=</HashCode>
+      <FileName>Utils\Tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="NetBrain.Defaults.MachineLearning.Data.Models.LabeledFeature&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAgAAAAAAAAAAAAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\Data\Models\LabeledFeature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="NetBrain.Defaults.MachineLearning.QualityCheckers.NumericDataQuality" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Defaults\MachineLearning\QualityCheckers\NumericDataQuality.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="NetBrain.Abstracts.Common.Models.ISubstitutionsSet&lt;V&gt;" Collapsed="true">
+    <Position X="33.25" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\Common\Models\ISubstitutionsSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Common.Models.IVariable&lt;TValueType&gt;" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAACAgAAAAAAA=</HashCode>
+      <FileName>Abstracts\Common\Models\IVariable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Common.Models.IVariableDomain&lt;TValueType&gt;" Collapsed="true">
+    <Position X="3" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAIAAAA=</HashCode>
+      <FileName>Abstracts\Common\Models\IVariableDomain.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Common.Models.IVariableSubstitution&lt;V&gt;" Collapsed="true">
+    <Position X="24.5" Y="14.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Abstracts\Common\Models\IVariableSubstitution.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.ConstraintSatisfaction.Evaluators.ICSPEvaluator&lt;TValueType&gt;" Collapsed="true">
+    <Position X="35" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Abstracts\ConstraintSatisfaction\Evaluators\ICSPEvaluator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.ConstraintSatisfaction.Evaluators.IProblemUpdater&lt;TValueType&gt;" Collapsed="true">
+    <Position X="28" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\ConstraintSatisfaction\Evaluators\IProblemUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.ConstraintSatisfaction.Evaluators.ISelectValueHeuristic&lt;TValueType&gt;" Collapsed="true">
+    <Position X="35" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Abstracts\ConstraintSatisfaction\Evaluators\ISelectValueHeuristic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.ConstraintSatisfaction.Evaluators.ISelectVariableHeuristic&lt;TValueType&gt;" Collapsed="true">
+    <Position X="21" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\ConstraintSatisfaction\Evaluators\ISelectVariableHeuristic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.ConstraintSatisfaction.Models.IConstraint&lt;TValueType&gt;" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgACAAAQI=</HashCode>
+      <FileName>Abstracts\ConstraintSatisfaction\Models\IConstraint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.ConstraintSatisfaction.Models.IConstraintSatisfactionProblem&lt;TValueType&gt;" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAgAARAAAAAAABAAAAA=</HashCode>
+      <FileName>Abstracts\ConstraintSatisfaction\Models\IConstraintSatisfactionProblem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Graphs.Models.IBinaryTree&lt;T, V&gt;" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAgACQABQEAEQJAAQBAAAAAAAAAAgAAAIAA=</HashCode>
+      <FileName>Abstracts\Graphs\Models\IBinaryTree.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Graphs.Models.IChildContainer&lt;T, V&gt;" Collapsed="true">
+    <Position X="3.5" Y="19.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Abstracts\Graphs\Models\IChildContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Graphs.Models.IEdge&lt;T, V&gt;" Collapsed="true">
+    <Position X="26.25" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Abstracts\Graphs\Models\IEdge.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Graphs.Models.IGraph&lt;T, V&gt;" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAEAAAAAIAAACAAAAQAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Abstracts\Graphs\Models\IGraph.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Graphs.Models.INode&lt;T&gt;" Collapsed="true">
+    <Position X="14.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Abstracts\Graphs\Models\INode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Graphs.Models.ITree&lt;T, V&gt;" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAggERAAAAAEEAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Abstracts\Graphs\Models\ITree.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Graphs.Traversals.IBinaryTreeTraversal&lt;T, V&gt;" Collapsed="true">
+    <Position X="28" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\Graphs\Traversals\IBinaryTreeTraversal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Graphs.Traversals.IGraphTraversal&lt;T, V&gt;" Collapsed="true">
+    <Position X="6.5" Y="19.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\Graphs\Traversals\IGraphTraversal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Graphs.Traversals.ITreeTraversal&lt;T, V&gt;" Collapsed="true">
+    <Position X="6.5" Y="20.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\Graphs\Traversals\ITreeTraversal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Logic.Evaluators.ISentenceEvaluator&lt;V&gt;" Collapsed="true">
+    <Position X="22.75" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAQAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Abstracts\Logic\Evaluators\ISentenceEvaluator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Logic.Evaluators.ISubstitutionsFinder&lt;T&gt;" Collapsed="true">
+    <Position X="31.5" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Abstracts\Logic\Evaluators\ISubstitutionsFinder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Logic.Evaluators.IVariablesDispatcher&lt;V&gt;" Collapsed="true">
+    <Position X="22.75" Y="14.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Evaluators\IVariablesDispatcher.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Logic.Models.IComplexSentence&lt;V&gt;" Collapsed="true">
+    <Position X="15.5" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAACAAAAARAAAAAAgAAAAAAIAA=</HashCode>
+      <FileName>Abstracts\Logic\Models\IComplexSentence.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Logic.Models.IKnowledgeBase&lt;V&gt;" Collapsed="true">
+    <Position X="24.5" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAABAAAAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Models\IKnowledgeBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Logic.Models.IOperator&lt;V&gt;" Collapsed="true">
+    <Position X="35" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEAAAAAAAgQAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Models\IOperator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Logic.Models.IPredicate&lt;V&gt;" Collapsed="true">
+    <Position X="17.75" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Models\IPredicate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.Logic.Models.ISentence&lt;V&gt;" Collapsed="true">
+    <Position X="16.75" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Abstracts\Logic\Models\ISentence.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.IBestSplitSelector&lt;T, V&gt;" Collapsed="true">
+    <Position X="26.25" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAgAEAAAAACAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IBestSplitSelector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.IDataSplitter&lt;T, V&gt;" Collapsed="true">
+    <Position X="21" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAgAAAQAAAAAAAyAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IDataSplitter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.IDecisionTreeBuilder&lt;T, V&gt;" Collapsed="true">
+    <Position X="22.75" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAggAAAAAQAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IDecisionTreeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.IDecisionTreeClassifier&lt;T, V&gt;" Collapsed="true">
+    <Position X="24.5" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAEAAAAAAgAAgAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IDecisionTreeClassifier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.IEntopyMeasurer&lt;T&gt;" Collapsed="true">
+    <Position X="28" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQEAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IEntopyMeasurer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.ISplitOption&lt;T&gt;" Collapsed="true">
+    <Position X="26.25" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAABCAAEAAAAAAAAAAAAIAAAAAAAAACABAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\ISplitOption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Models.IDecisionTree&lt;T, V&gt;" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAAAAAAIAIAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Models\IDecisionTree.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Models.IProbabilityBasedChildContainer&lt;T, V&gt;" Collapsed="true">
+    <Position X="3.5" Y="20.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Models\IProbabilityBasedChildContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Models.ISplittingResult&lt;T, V&gt;" Collapsed="true">
+    <Position X="28" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Models\ISplittingResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.Knn.IKnnClassifier" Collapsed="true">
+    <Position X="22.75" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\Knn\IKnnClassifier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Clusterization.KMeans.ICentroid" Collapsed="true">
+    <Position X="29.75" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAAgACAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Clusterization\KMeans\ICentroid.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Clusterization.KMeans.ICentroidUpdater" Collapsed="true">
+    <Position X="17.5" Y="18.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Clusterization\KMeans\ICentroidUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Clusterization.KMeans.IClusterizator" Collapsed="true">
+    <Position X="31.5" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAEAQIAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Clusterization\KMeans\IClusterizator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Clusterization.KMeans.IIncrementalCentroidUpdater" Collapsed="true">
+    <Position X="17.5" Y="19.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Clusterization\KMeans\IIncrementalCentroidUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.Clusterization.KMeans.IInitialClustersBuilder" Collapsed="true">
+    <Position X="21" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Clusterization\KMeans\IInitialClustersBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.ExpertSystem.Evaluators.IRulesEvaluator&lt;V&gt;" Collapsed="true">
+    <Position X="33.25" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAABAAAEAAAgAUAAAIACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\ExpertSystem\Evaluators\IRulesEvaluator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.ExpertSystem.Models.IRule&lt;V&gt;" Collapsed="true">
+    <Position X="31.5" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAEAAAAAAAQ=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\ExpertSystem\Models\IRule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.ExpertSystem.Models.IVariableDefinition&lt;T&gt;" Collapsed="true">
+    <Position X="21" Y="14.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAABAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\ExpertSystem\Models\IVariableDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.FrequentItems.Models.IAssociationRule&lt;T&gt;" Collapsed="true">
+    <Position X="22.75" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\FrequentItems\Models\IAssociationRule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.FrequentItems.Models.IAssociationsFinder&lt;T&gt;" Collapsed="true">
+    <Position X="24.5" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\FrequentItems\Models\IAssociationsFinder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.FrequentItems.Models.IFrequentItemsFinder&lt;T&gt;" Collapsed="true">
+    <Position X="33.25" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\FrequentItems\Models\IFrequentItemsFinder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.FrequentItems.Models.IFrequentItemsSet&lt;T&gt;" Collapsed="true">
+    <Position X="35" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\FrequentItems\Models\IFrequentItemsSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.NeuralNetworks.Models.IActivationFunction" Collapsed="true">
+    <Position X="21" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\NeuralNetworks\Models\IActivationFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.NeuralNetworks.Models.INetworkLayer" Collapsed="true">
+    <Position X="28" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BIAAgAAIAAAAAAAAAAAAAAACAACAAAAAAAAAAAAQAEA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\NeuralNetworks\Models\INetworkLayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.NeuralNetworks.Models.INeuralNetwork" Collapsed="true">
+    <Position X="29.75" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAACAAAAAAAAAAAAAAGEAAAAABQAAE=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\NeuralNetworks\Models\INeuralNetwork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.NeuralNetworks.Trainers.INeuralNetworkTrainer" Collapsed="true">
+    <Position X="31.5" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAJAAIAAAAAAAAAEgABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\NeuralNetworks\Trainers\INeuralNetworkTrainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.NeuralNetworks.Trainers.INeuralNetworkTrainerLogger" Collapsed="true">
+    <Position X="33.25" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\NeuralNetworks\Trainers\INeuralNetworkTrainerLogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.NeuralNetworks.Trainers.ISolutionInterpreter" Collapsed="true">
+    <Position X="24.5" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\NeuralNetworks\Trainers\ISolutionInterpreter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.NeuralNetworks.Trainers.ITrainingStrategy" Collapsed="true">
+    <Position X="35" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAEAAIAAAAEAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\NeuralNetworks\Trainers\ITrainingStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.OptimizationAlgorithms.IOptimizationAlgorithm" Collapsed="true">
+    <Position X="21" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAIAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\OptimizationAlgorithms\IOptimizationAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.OptimizationAlgorithms.IOptimizationAlgorithmLogger" Collapsed="true">
+    <Position X="22.75" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\OptimizationAlgorithms\IOptimizationAlgorithmLogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Algorithms.OptimizationAlgorithms.IOptimizationAlgorithmLoggerParams" Collapsed="true">
+    <Position X="24.5" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAABABAAAAAABAAAACBBCAAAAAAAQA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\OptimizationAlgorithms\IOptimizationAlgorithmLoggerParams.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.Regression.IRegressionFunction" Collapsed="true">
+    <Position X="29.75" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\Regression\IRegressionFunction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.IDataSet&lt;T&gt;" Collapsed="true">
+    <Position X="18.5" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAoAEAAABCAAAAAACAAAgAAABAAAABAIACQAAAgAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\IDataSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.IFeatureDomain" Collapsed="true">
+    <Position X="31.5" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\IFeatureDomain.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.IFeatureVector&lt;T&gt;" Collapsed="true">
+    <Position X="14.5" Y="18.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAEAIAACAABAAAABAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\IFeatureVector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.ILabeledFeature&lt;T&gt;" Collapsed="true">
+    <Position X="26.25" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\ILabeledFeature.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.IProblemDomain" Collapsed="true">
+    <Position X="26.25" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAACAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\IProblemDomain.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.ISingleValueDataSet&lt;T&gt;" Collapsed="true">
+    <Position X="18.5" Y="17" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAEAACAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\ISingleValueDataSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.ISingleValueFeatureVector&lt;T&gt;" Collapsed="true">
+    <Position X="14.5" Y="20" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAACAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\ISingleValueFeatureVector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.QueryExtensions.IDataVectorPredicate&lt;T&gt;" Collapsed="true">
+    <Position X="17.75" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\QueryExtensions\IDataVectorPredicate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.Standarization.IEncoder&lt;T&gt;" Collapsed="true">
+    <Position X="18.5" Y="12.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAQAAAAAAAAAAAAIAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\Standarization\IEncoder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.Standarization.INumericalStandardizer&lt;T&gt;" Collapsed="true">
+    <Position X="18.5" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\Standarization\INumericalStandardizer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.Models.Data.Standarization.IStandarizator&lt;T&gt;" Collapsed="true">
+    <Position X="29.75" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAgwABAIAAAAQAAAABAAAAAAAAAAgBAQ=</HashCode>
+      <FileName>Abstracts\MachineLearning\Models\Data\Standarization\IStandarizator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.QualityCheckers.IClassificationQualityChecker&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="19.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\QualityCheckers\IClassificationQualityChecker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.QualityCheckers.IClassificationQualityData&lt;T&gt;" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\QualityCheckers\IClassificationQualityData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.QualityCheckers.IContingencyTable&lt;T&gt;" Collapsed="true">
+    <Position X="33.25" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\QualityCheckers\IContingencyTable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.QualityCheckers.IExpectedActualPair&lt;T&gt;" Collapsed="true">
+    <Position X="29.75" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\QualityCheckers\IExpectedActualPair.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.QualityCheckers.IQualityChecker&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="18.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\QualityCheckers\IQualityChecker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Abstracts.MachineLearning.QualityCheckers.IQualityData" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\QualityCheckers\IQualityData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NetBrain.Utils.ICloneableType&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Utils\ICloneableType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="NetBrain.Abstracts.Common.Models.VariableWithDomainFactory&lt;V&gt;" Collapsed="true">
+    <Position X="29.75" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\Common\Models\IVariableDomain.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.BestSplitSelectorFactory&lt;T, V&gt;" Collapsed="true">
+    <Position X="22.75" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IBestSplitSelector.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.NumbericDataMiddlepointFinder" Collapsed="true">
+    <Position X="24.5" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IDataSplitter.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.IsValueApplicable&lt;T, V&gt;" Collapsed="true">
+    <Position X="21" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IDecisionTreeClassifier.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Evaluators.EntropyMeasurerFactory&lt;T&gt;" Collapsed="true">
+    <Position X="31.5" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Evaluators\IEntopyMeasurer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Utils.TrueEquivalent&lt;T&gt;" Collapsed="true">
+    <Position X="28" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Utils\DecisionTreesUtils.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.DecisionTrees.Utils.FalseEquivalent&lt;T&gt;" Collapsed="true">
+    <Position X="33.25" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\DecisionTrees\Utils\DecisionTreesUtils.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.Algorithms.Classification.Knn.KnnClassifierFactory" Collapsed="true">
+    <Position X="22.75" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\Classification\Knn\IKnnClassifier.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.Algorithms.FrequentItems.Models.AssociationsFinderFactory&lt;T&gt;" Collapsed="true">
+    <Position X="21" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\FrequentItems\Models\IAssociationsFinder.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.Algorithms.FrequentItems.Models.FrequentItemsFinderFactory&lt;T&gt;" Collapsed="true">
+    <Position X="35" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\FrequentItems\Models\IFrequentItemsFinder.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.Algorithms.OptimizationAlgorithms.SolutionChecker" Collapsed="true">
+    <Position X="26.25" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\Algorithms\OptimizationAlgorithms\IOptimizationAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.ContinuousDomainChaosMeasure" Collapsed="true">
+    <Position X="26.25" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\ChaosMeasureFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.ContinousValuesChaosMeasurer" Collapsed="true">
+    <Position X="24.5" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\ChaosMeasureFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.DiscreteDomainChaosMeasure&lt;T&gt;" Collapsed="true">
+    <Position X="28" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\ChaosMeasureFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NetBrain.Abstracts.MachineLearning.MathematicalFunctions.DistanceCalculator" Collapsed="true">
+    <Position X="29.75" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Abstracts\MachineLearning\MathematicalFunctions\DistanceFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

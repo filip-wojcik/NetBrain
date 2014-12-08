@@ -1,0 +1,283 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Remoting.Messaging;
+using System.Text;
+using System.Threading.Tasks;
+using NetBrain.Abstracts.Graphs.Models;
+using NetBrain.Abstracts.Graphs.Exceptions;
+using NetBrain.Defaults.Graphs.Common;
+
+namespace NetBrain.Defaults.Graphs.Trees.BinarySearchTrees
+{
+    //TODO: refactor to use automatic iteration on children!!!
+
+    public class BinarySearchTreeNew<T, V> : ITreeNew<T, V> where V: IComparable<V> where T : IComparable<T>
+    {
+        public ITreeNew<T, V> LeftChild { get; set; }
+        public ITreeNew<T, V> RightChild { get; set; }
+
+        protected V LeftChildLinkValue { get; set; }
+        protected V RightChildLinkValue { get; set; }
+
+        # region Public properties
+
+        public T Value { get; set; }
+
+        public IEnumerable<ITreeNew<T, V>> Children
+        {
+            get 
+            {
+                var valuesToReturn = new List<ITreeNew<T, V>>();
+                if (this.HasLeftChild()) valuesToReturn.Add(this.LeftChild);
+                if (this.HasRightChild()) valuesToReturn.Add(this.RightChild);
+                return valuesToReturn;
+            }
+        }
+        public IEnumerable<Tuple<ITreeNew<T, V>, V>> ChildrenWithValues
+        {
+            get 
+            { 
+                var valuesToReturn = new List<Tuple<ITreeNew<T, V>, V>>();
+                if (this.HasLeftChild()) valuesToReturn.Add(new Tuple<ITreeNew<T, V>, V>(this.LeftChild, this.LeftChildLinkValue));
+                if (this.HasRightChild()) valuesToReturn.Add(new Tuple<ITreeNew<T, V>, V>(this.RightChild, this.RightChildLinkValue));
+                return valuesToReturn;
+            }
+        }
+
+
+        public IList<INode<T>> Nodes
+        {
+            get { return new List<INode<T>>() { this.LeftChild, this.RightChild }; }
+        }
+
+        # endregion Public properties
+
+        # region Constructors
+
+        public BinarySearchTreeNew(T value)
+        {
+            this.Value = value;
+        }
+
+        public BinarySearchTreeNew(T value, Dictionary<ITreeNew<T, V>, V> childrenWithValues)
+            : this(value)
+        {
+            if (childrenWithValues.Any() && childrenWithValues.Count() <= 2)
+            {
+                foreach (var child in childrenWithValues) this.AddChild(child.Key, child.Value);
+            }
+        }
+
+        # endregion Constructors
+
+        #region ITreeNew<T,V> Members
+
+        public void AddChild(ITreeNew<T, V> child, V value = default(V))
+        {
+            if(child.Value.CompareTo(this.Value) < 0)
+            {
+                if(this.HasLeftChild()) this.LeftChild.AddChild(child, value);
+                else
+                {
+                    this.LeftChild = child;
+                    this.LeftChildLinkValue = value;
+                }
+            }
+            else
+            {
+                if (this.HasRightChild()) this.RightChild.AddChild(child, value);
+                else
+                {
+                    this.RightChild = child;
+                    this.RightChildLinkValue = value;
+                }
+            }
+        }
+
+        public void RemoveChild(ITreeNew<T, V> child)
+        {
+            //TODO: implement it!
+            throw new NotImplementedException();
+        }
+
+        public void RotateLeft()
+        {
+            //TODO: implement it!
+            throw new NotImplementedException();
+        }
+
+        public void RotateRight()
+        {
+            //TODO: implement it!
+            throw new NotImplementedException();
+        }
+
+        public V EdgeValueForChild(ITreeNew<T, V> childNode)
+        {
+            if (this.HasLeftChild() && this.LeftChild.Equals(childNode)) return this.LeftChildLinkValue;
+            if (this.HasRightChild() && this.RightChild.Equals(childNode)) return this.RightChildLinkValue;
+            throw new NodeNotFoundException<T>(childNode);
+        }
+
+        #endregion
+
+        #region IGraph<T,V> Members
+
+        public void AddEdge(INode<T> from, INode<T> to, V value = default(V))
+        {
+            var treeNodeFrom = (ITreeNew<T, V>)from;
+            var treeNodeTo = (ITreeNew<T, V>)to;
+
+            if (treeNodeFrom.Equals(this))
+            {
+                this.AddChild(treeNodeTo, value);
+            }
+            else
+            {
+                if (this.HasLeftChild() && this.LeftChild.Equals(treeNodeFrom)) this.LeftChild.AddEdge(from, to, value);
+                if (this.HasRightChild() && this.RightChild.Equals(treeNodeFrom)) this.RightChild.AddEdge(from, to, value);
+            }
+        }
+
+        public IEdge<T, V> GetEdge(INode<T> from, INode<T> to)
+        {
+            var treeNodeFrom = (ITreeNew<T, V>)from;
+            var treeNodeTo = (ITreeNew<T, V>)to;
+
+            if (treeNodeFrom.Equals(this))
+            {
+
+                if (this.HasLeftChild() && this.LeftChild.Equals(treeNodeTo))
+                {
+                    return new Edge<T, V>(this, this.LeftChild, this.LeftChildLinkValue);
+                }
+                if (this.HasRightChild() && this.RightChild.Equals(treeNodeTo))
+                {
+                    return new Edge<T, V>(this, this.RightChild, this.RightChildLinkValue);
+                }
+                throw new NodeNotFoundException<T>(treeNodeTo);
+            }
+            else
+            {
+                if (this.HasLeftChild() && treeNodeFrom.Equals(this.LeftChild)) return this.LeftChild.GetEdge(from, to);
+                if (this.HasRightChild() && treeNodeFrom.Equals(this.RightChild)) return this.RightChild.GetEdge(from, to);
+                throw new NodeNotFoundException<T>(treeNodeFrom);
+            }
+            
+
+        }
+
+        public bool HasEdge(INode<T> from, INode<T> to)
+        {
+            var treeNodeFrom = (ITreeNew<T, V>)from;
+            var treeNodeTo = (ITreeNew<T, V>)to;
+
+            if (treeNodeFrom.Equals(this))
+            {
+                if (this.HasLeftChild() && this.LeftChild.Equals(treeNodeTo))
+                {
+                    return true;
+                }
+                if (this.HasRightChild() && this.RightChild.Equals(treeNodeTo))
+                {
+                    return true;
+                }
+                throw new NodeNotFoundException<T>(treeNodeTo);
+            }
+            else
+            {
+                if (this.HasLeftChild() && treeNodeFrom.Equals(this.LeftChild)) return this.LeftChild.HasEdge(from, to);
+                if (this.HasRightChild() && treeNodeFrom.Equals(this.RightChild)) return this.RightChild.HasEdge(from, to);
+                throw new NodeNotFoundException<T>(treeNodeFrom);
+            }
+        }
+
+        public void RemoveEdge(INode<T> from, INode<T> to)
+        {
+            //TODO: implement it!
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<INode<T>> GetNeighborsOf(INode<T> node)
+        {
+            var treeNode = (ITreeNew<T, V>)node;
+
+            if (treeNode.Equals(this))
+            {
+                foreach (var childNode in this.Nodes) yield return childNode;
+                
+            }
+            else
+            {
+                foreach (
+                    var grandChild in
+                        this.CheckMatchingChildrenAndReturn<IEnumerable<INode<T>>>(node,
+                            (nodeToMatch, matchingChild) => matchingChild.GetNeighborsOf(nodeToMatch),
+                            () => { return null; }))
+                {
+                    if(grandChild != null) yield return grandChild;
+                }
+                /*
+                if (this.HasLeftChild() && treeNode.Equals(this.LeftChild))
+                {
+                    foreach (var grandChild in this.LeftChild.GetNeighborsOf(node))
+                    {
+                        yield return grandChild;
+                    }
+                }
+
+                if (this.HasRightChild() && treeNode.Equals(this.RightChild))
+                {
+                    yield return this;
+                    foreach (var grandChild in this.RightChild.GetNeighborsOf(node))
+                    {
+                        yield return grandChild;
+                    }
+                }
+                 */
+                
+            }
+        }
+
+        public IEnumerable<IEdge<T, V>> GetValuedEdges(INode<T> node)
+        {
+            foreach (var childWithValue in this.ChildrenWithValues)
+            {
+                yield return new Edge<T, V>(this, childWithValue.Item1, childWithValue.Item2);
+            }
+        }
+
+        #endregion
+
+        # region Helper methods
+
+        protected bool HasLeftChild()
+        {
+            return this.LeftChild != null;
+        }
+
+        protected bool HasRightChild()
+        {
+            return this.RightChild != null;
+        }
+
+        protected U CheckMatchingChildrenAndReturn<U>(INode<T> node, Func<INode<T>, ITreeNew<T, V>, U> method, Func<U> invokeIfNotFound)
+        {
+            if (this.HasLeftChild() && this.LeftChild.Equals(node)) return method(node, this.LeftChild);
+            if (this.HasRightChild() && this.RightChild.Equals(node)) return method(node, this.RightChild);
+            if (invokeIfNotFound == null) throw new NodeNotFoundException<T>(node);
+            return invokeIfNotFound();
+        }
+
+        protected void CheckMatchingChildrenAndInvoke(INode<T> node, Action<INode<T>, ITreeNew<T, V>> method, bool exceptionIfNotFound = false)
+        {
+            if (this.HasLeftChild() && this.LeftChild.Equals(node)) method(node, this.LeftChild);
+            if (this.HasRightChild() && this.RightChild.Equals(node)) method(node, this.RightChild);
+            if(exceptionIfNotFound) throw new NodeNotFoundException<T>(node);
+        }
+
+        # endregion Helper methods
+
+    }
+}

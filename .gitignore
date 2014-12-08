@@ -1,0 +1,16 @@
+Bin
+bin
+obj
+TestResults
+*.suo
+*.zip
+*.vsmdi
+MSBuild_result.txt
+TestResult*.txt
+*.dll
+*.pdb
+*/Bin/*.xml
+Binaries
+TempBuild
+*.user
+*.vspscc
